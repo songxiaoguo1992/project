@@ -9,14 +9,12 @@
     	</ul>
     	<router-view :seller="seller"></router-view>
     </div>
-    <contents></contents>
   </div>
 </template>
 
 <script>
 import axios from 'axios'
 import headers from './components/header.vue'
-import contents from './components/content.vue'
 
 export default {
   name: 'app',
@@ -27,8 +25,7 @@ export default {
     }
   },
   components:{
-  	headers,
-  	contents
+  	headers
   },
   created: function (){
   	axios.get('./data.json').then(function(res){
