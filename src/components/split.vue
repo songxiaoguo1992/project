@@ -1,0 +1,12 @@
+<template>
+  <div id="split"></div>
+</template>
+<style type="text/css">
+	#split{
+		width: 100%;
+		height: 16px;
+		border-top: 1px solid rgba(7,17,27,0.1);
+		border-bottom: 1px solid rgba(7,17,27,0.1);
+		background: #F3F5F7;
+	}
+</style>
